@@ -255,7 +255,6 @@ def main():
                         best_move = get_dif(*minimax(grid,pieces['O'],pieces['B'],5,'O',True))
                     selected.selected = False
                     selected = None
-                    print(evaluate(grid))
 
         draw(best_move)
 
